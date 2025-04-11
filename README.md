@@ -12,3 +12,48 @@ For example, Reconnaissance is a tactic that the attacker is trying to get infor
 Some techniques to combat reconnaissance are vulnerability scanning, scanning IP blocks, and scanning hardware and software. 
 
 As the Blue Team, we want to evolve this agent by simulating Red Team tactics on our system and understand how they can be countered using various defensive strategies.
+
+
+## 🧠 Features
+
+- 📷 **Real-Time Object Detection**
+- 🧭 **Autonomous Agent Integration**
+- 📊 **Interactive Web Dashboard** (TypeScript, HTML, CSS)
+- 🐍 **Python-Based AI Backend**
+- 🧩 Modular Design (Frontend & Backend separation)
+
+## 🌐 Dashboard
+
+The dashboard is a responsive, browser-based interface built using:
+- [TypeScript](https://www.typescriptlang.org/)
+- HTML/CSS
+- Vite for development and build tooling
+
+### 🚀 Running the Dashboard
+
+1. Clone the repo and navigate to the dashboard folder:
+   ```bash
+   git clone https://github.com/oluwatobilobalawuyi/EyeSpyAI.git
+   cd EyeSpyAI/dashboard
+   npm install
+   npm run dev
+   http://localhost:5173/
+
+backend/
+├── main.py              # Entry point for the backend service
+├── detector.py          # Object detection logic (e.g., using OpenCV, PyTorch, or YOLO)
+├── utils/               # Helper functions (e.g., logging, preprocessing)
+├── config/              # Configuration files (thresholds, camera URLs, etc.)
+├── API/                 # Flask or FastAPI routes (optional for frontend integration)
+└── requirements.txt     # Python dependencies
+
+Ensure the dependencies are installed:
+    cd backend
+    pip install -r requirements.txt
+
+👥 Authors
+Oluwatobiloba Lawuyi (@oluwatobilobalawuyi)
+Nia McNeal
+Kiara Nichols
+Medinat Lawal
+Christian Earle
