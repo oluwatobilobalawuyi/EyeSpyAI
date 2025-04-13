@@ -40,11 +40,22 @@ The dashboard is a responsive, browser-based interface built using:
    http://localhost:5173/
 
 backend/
+
 ├── main.py              # Entry point for the backend service
+
+
 ├── detector.py          # Object detection logic (e.g., using OpenCV, PyTorch, or YOLO)
+
+
 ├── utils/               # Helper functions (e.g., logging, preprocessing)
+
+
 ├── config/              # Configuration files (thresholds, camera URLs, etc.)
+
+
 ├── API/                 # Flask or FastAPI routes (optional for frontend integration)
+
+
 └── requirements.txt     # Python dependencies
 
 Ensure the dependencies are installed:
@@ -53,7 +64,11 @@ Ensure the dependencies are installed:
 
 👥 Authors
 Oluwatobiloba Lawuyi (@oluwatobilobalawuyi)
+
 Nia McNeal
+
 Kiara Nichols
+
 Medinat Lawal
+
 Christian Earle
