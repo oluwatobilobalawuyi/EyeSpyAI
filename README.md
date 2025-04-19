@@ -7,7 +7,7 @@ MITRE ATT&CK is a collection of information about tactics and techniques that ha
 
 Some attacks listed are Reconnaissance, Resource Development, Initial Access, Execution, Persistence, Privilege Escalation, Defense Evasion, Credential Access, Discovery, Lateral Movement, Collection, Command and Control, Exfiltration, and Impact. 
 
-Each tactic has a range from 8 to 43 techniques to combat it. 
+Each tactic has a range of 8 to 43 techniques to combat it. 
 For example, Reconnaissance is a tactic that the attacker is trying to get information they can use to plan future operations. 
 Some techniques to combat reconnaissance are vulnerability scanning, scanning IP blocks, and scanning hardware and software. 
 
@@ -29,15 +29,17 @@ The dashboard is a responsive, browser-based interface built using:
 - HTML/CSS
 - Vite for development and build tooling
 
-### 🚀 Running the Dashboard
+eyespy-dashboard/
 
-1. Clone the repo and navigate to the dashboard folder:
-   ```bash
-   git clone https://github.com/oluwatobilobalawuyi/EyeSpyAI.git
-   cd EyeSpyAI/dashboard
-   npm install
-   npm run dev
-   http://localhost:5173/
+├── src/
+
+│   ├── components/
+
+│   │   └── Dashboard.jsx
+
+│   ├── App.js
+
+│   └── index.css  ← (already contains Tailwind setup)
 
 backend/
 
